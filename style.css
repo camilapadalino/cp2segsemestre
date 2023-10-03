@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    
+}
+
+header{
+    background-color: red;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+main{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.loginFormulario{
+    width: 200px;
+    text-align: center;
+    padding: 50px;
+    padding-right: 30px;
+}
+
+.loginFormulario input{
+    padding: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#login{
+    border: 2px solid rgb(71, 3, 3);;
+    margin-bottom: 10px;
+}
+
+#senha{
+    border: 2px solid rgb(71, 3, 3);
+    margin-bottom: 10px;
+}
+
+#botao{
+    border: 2px solid red;
+    color: red;
+    padding: 10px;
+    background-color: white;
+}
+
+.imagem{
+    padding: 50px;
+}
+
+/*Mobile*/
+@media screen and (max-width: 480px ){
+    main{
+        flex-direction: column;
+    }
+}
+
+/*Desktop*/
+@media (max-width: 800px){
+
+}
